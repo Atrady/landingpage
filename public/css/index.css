@@ -89,3 +89,9 @@ section {
 .btn-sell:hover {
   background-color: #cf7500;
 }
+
+@media screen and (max-width: 500px) {
+  .cta {
+    background-position: right;
+  }
+}
