@@ -4,7 +4,7 @@ nav {
 
 .cta {
   padding: 100px 0;
-  background: url("../images/bg2.jpg");
+  background-image: url("../images/bg2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -92,6 +92,12 @@ section {
 
 @media screen and (max-width: 500px) {
   .cta {
-    background-position: right;
+    background-image: url("../images/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .btn-notify {
+    margin-top: 10px;
   }
 }
