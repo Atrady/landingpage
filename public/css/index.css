@@ -64,6 +64,28 @@ section {
   padding: 10px;
 }
 
+.cta-2 {
+  background-color: #07031a;
+}
+
 .buttons {
   text-align: center;
+}
+
+.buttons button:hover {
+  color: white !important;
+}
+
+.btn-buy {
+  background-color: #cf7500;
+  color: white;
+}
+
+.btn-sell {
+  border: 1px solid #cf7500;
+  color: #cf7500;
+}
+
+.btn-sell:hover {
+  background-color: #cf7500;
 }
