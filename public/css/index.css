@@ -93,8 +93,8 @@ section {
 @media screen and (max-width: 500px) {
   .cta {
     background-image: url("../images/bg2.jpg");
-    background-position: center;
-    background-size: cover;
+    /* background-position: center;
+    background-size: cover; */
   }
 
   .btn-notify {
