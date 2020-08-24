@@ -9,6 +9,6 @@ app.use(express.static(__dirname + "/public/"));
 app.get("/", (req, res) => {
   res.render("index");
 });
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 5001, () => {
   console.log("Server started on port 5000");
 });

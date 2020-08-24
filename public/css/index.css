@@ -2,11 +2,27 @@ nav {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
 .cta {
   padding: 100px 0;
   background-image: url("../images/bg2.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.launch {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
+  border-radius: 20px;
+  padding: 1rem 2rem;
 }
 
 .navbar-brand {
@@ -18,31 +34,37 @@ nav {
   width: 40px;
 }
 
-body {
-}
-
 section {
   padding: 50px 0;
 }
 
 .primary-text {
-  font-size: 1.5rem;
-  color: #cf7500;
+  font-size: 2.5rem;
+  color: #fa7d09;
   font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
 }
 .heading {
   font-size: 3rem;
   font-weight: bold;
 }
 
+.btn {
+  padding: 7px 20px;
+  border-radius: 10px;
+}
+
 .btn-notify {
   /* background-color: #000b76; */
   background-color: black;
   color: whitesmoke;
+  border-radius: 0 10px 0px 10px;
 }
 
 .features {
   background-color: #f4f4f4;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 .feature {
   text-align: center;
@@ -64,12 +86,12 @@ section {
 
 .feature .fas {
   font-size: 3rem;
-  color: ffb385;
+  color: #fa7d09;
   padding: 10px;
 }
 
 .cta-2 {
-  background-color: #fcf8f3;
+  background-color: #f4f4f4;
 }
 
 .buttons {
@@ -80,6 +102,10 @@ section {
   color: white !important;
 }
 
+.buttons .btn {
+  margin: 10px;
+  padding: 7px 10px;
+}
 .btn-buy {
   background-color: black;
   color: white;
@@ -96,7 +122,9 @@ section {
 
 .coming-soon {
   text-align: center;
-  color: #cf7500;
+  color: #fa7d09;
+  font-family: "Lobster", cursive;
+  background-color: #f4f4f4;
 }
 
 .soon {
@@ -109,6 +137,8 @@ footer {
   background-color: #1b262c;
   color: white;
   font-weight: bold;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 
 .footer-soon {
@@ -123,7 +153,7 @@ footer a {
 }
 
 .footer-item {
-  text-align: right;
+  text-align: left;
 }
 
 footer a:hover {
@@ -131,13 +161,9 @@ footer a:hover {
   color: white;
 }
 
-.btn {
-  padding: 5 20px;
-  border-radius: 10px;
-}
 .btn-subscribe {
   color: white;
-  background-color: #cf7500;
+  background-color: #fa7d09;
 }
 
 .copy {
