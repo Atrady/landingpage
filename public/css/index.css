@@ -3,7 +3,7 @@ nav {
 }
 
 body {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .cta {
   padding: 100px 0;
@@ -13,8 +13,8 @@ body {
 }
 
 .launch {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
   color: black;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
@@ -38,7 +38,8 @@ section {
   padding: 50px 0;
 }
 
-.primary-text {
+.primary-text,
+.coming-soon {
   font-size: 2.5rem;
   color: #fa7d09;
   font-weight: bold;
@@ -63,7 +64,7 @@ section {
 
 .features {
   background-color: #f4f4f4;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
 }
 .feature {
@@ -76,7 +77,6 @@ section {
 }
 
 .feature-text {
-  font-weight: bold;
   color: black;
 }
 .feature:hover {
@@ -122,8 +122,6 @@ section {
 
 .coming-soon {
   text-align: center;
-  color: #fa7d09;
-  font-family: "Lobster", cursive;
   background-color: #f4f4f4;
 }
 
@@ -136,15 +134,8 @@ footer {
   padding: 20px 0;
   background-color: #1b262c;
   color: white;
-  font-weight: bold;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
-}
-
-.footer-soon {
-  margin-top: 60px;
-  font-size: 2.5rem;
-  /* margin-bottom: auto; */
 }
 
 footer a {
@@ -161,6 +152,9 @@ footer a:hover {
   color: white;
 }
 
+footer .getintouch {
+  text-align: right;
+}
 .btn-subscribe {
   color: white;
   background-color: #fa7d09;
