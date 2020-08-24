@@ -9,10 +9,14 @@ nav {
   background-size: cover;
 }
 
-/* .navbar-brand {
-  color: #000b76 !important;
+.navbar-brand {
+  font-size: 2rem;
   font-weight: bold;
-} */
+}
+
+.logo {
+  width: 40px;
+}
 
 body {
 }
@@ -24,6 +28,7 @@ section {
 .primary-text {
   font-size: 1.5rem;
   color: #cf7500;
+  font-weight: bold;
 }
 .heading {
   font-size: 3rem;
@@ -48,24 +53,23 @@ section {
   margin: 10px;
 }
 
-.feature:hover {
-  transform: translateY(-20px);
-  background-color: #342b38;
-  color: white;
-}
-
 .feature-text {
   font-weight: bold;
+  color: black;
+}
+.feature:hover {
+  transform: translateY(-20px);
+  color: white;
 }
 
 .feature .fas {
   font-size: 3rem;
-  color: #cf7500;
+  color: ffb385;
   padding: 10px;
 }
 
 .cta-2 {
-  background-color: #07031a;
+  background-color: #fcf8f3;
 }
 
 .buttons {
@@ -77,19 +81,59 @@ section {
 }
 
 .btn-buy {
-  background-color: #cf7500;
+  background-color: black;
   color: white;
 }
 
 .btn-sell {
-  border: 1px solid #cf7500;
-  color: #cf7500;
+  border: 1px solid black;
+  color: black;
 }
 
 .btn-sell:hover {
-  background-color: #cf7500;
+  background-color: black;
 }
 
+.coming-soon {
+  text-align: center;
+  color: #393e46;
+}
+
+.soon {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #1b262c;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-soon {
+  margin-top: 60px;
+  font-size: 2.5rem;
+  /* margin-bottom: auto; */
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-item {
+  text-align: right;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.copy {
+  text-align: center;
+}
 @media screen and (max-width: 500px) {
   .cta {
     background-image: url("../images/bg4.jpg");
