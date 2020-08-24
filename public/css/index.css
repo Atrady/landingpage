@@ -96,7 +96,7 @@ section {
 
 .coming-soon {
   text-align: center;
-  color: #393e46;
+  color: #cf7500;
 }
 
 .soon {
@@ -129,6 +129,15 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: white;
+}
+
+.btn {
+  padding: 5 20px;
+  border-radius: 10px;
+}
+.btn-subscribe {
+  color: white;
+  background-color: #cf7500;
 }
 
 .copy {
