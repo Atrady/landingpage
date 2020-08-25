@@ -5,28 +5,40 @@ nav {
 body {
   font-family: "Oswald", sans-serif;
 }
-
 .cta {
+  position: relative;
+  height: 75vh;
 }
-.first {
+
+.text-block-right {
+  z-index: 1;
   padding: 100px 0;
+  position: absolute;
+}
+
+.first {
   background-image: url("../images/bg2.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .second {
-  padding: 100px 0;
-  background-image: url("../images/bg5.jpg");
+  background-image: url("../images/bg4.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .third {
-  padding: 100px 0;
-  background-image: url("../images/bg4.jpg");
+  background-image: url("../images/bg5.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.carousel-indicators > li {
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
 }
 .launch {
   font-family: "Oswald", sans-serif;
@@ -49,9 +61,11 @@ body {
 .logo {
   width: 40px;
 }
-
+.cta {
+  padding: 0;
+}
 section {
-  /* padding: 50px 0; */
+  padding: 50px 0;
 }
 
 .primary-text,
@@ -180,6 +194,12 @@ footer .getintouch {
   text-align: center;
 }
 @media screen and (max-width: 500px) {
+  .cta {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .btn-notify {
     margin-top: 10px;
   }
