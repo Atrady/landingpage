@@ -35,7 +35,8 @@ body {
 }
 
 .carousel-indicators > li {
-  border: 2px solid #ffffff;
+  border: 2px solid #fa7d09;
+  background-color: black;
   border-radius: 100%;
   width: 10px;
   height: 10px;
@@ -194,10 +195,10 @@ footer .getintouch {
   text-align: center;
 }
 @media screen and (max-width: 500px) {
-  .cta {
-    background-size: cover;
+  .first {
+    background-image: url("../images/bg3.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .btn-notify {
