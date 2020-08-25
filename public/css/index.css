@@ -201,6 +201,13 @@ footer .getintouch {
     background-size: cover;
   }
 
+  .cta input {
+    width: 80%;
+  }
+  .launch {
+    padding: 0.5rem 1rem;
+    width: 85%;
+  }
   .btn-notify {
     margin-top: 10px;
   }
