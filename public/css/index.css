@@ -5,13 +5,29 @@ nav {
 body {
   font-family: "Oswald", sans-serif;
 }
+
 .cta {
+}
+.first {
   padding: 100px 0;
   background-image: url("../images/bg2.jpg");
   background-position: center;
   background-size: cover;
 }
 
+.second {
+  padding: 100px 0;
+  background-image: url("../images/bg5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.third {
+  padding: 100px 0;
+  background-image: url("../images/bg4.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .launch {
   font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
@@ -35,7 +51,7 @@ body {
 }
 
 section {
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .primary-text,
