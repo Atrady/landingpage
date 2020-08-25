@@ -180,13 +180,6 @@ footer .getintouch {
   text-align: center;
 }
 @media screen and (max-width: 500px) {
-  .cta {
-    background-image: url("../images/bg4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
   .btn-notify {
     margin-top: 10px;
   }
