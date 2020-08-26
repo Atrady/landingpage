@@ -196,17 +196,28 @@ footer .getintouch {
 }
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .first {
-    background-image: url("../images/bg3.jpg");
+    background-image: url("../images/bg2mobi.jpg");
     background-position: center;
     background-size: cover;
   }
 
+  .second {
+    background-image: url("../images/bg4mobi.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .third {
+    background-image: url("../images/bg5mobi.jpg");
+    background-position: center;
+    background-size: cover;
+  }
   .cta input {
-    width: 80%;
+    width: 94%;
   }
   .launch {
     padding: 0.5rem 1rem;
-    width: 85%;
+    width: 94%;
   }
   .btn-notify {
     margin-top: 10px;
