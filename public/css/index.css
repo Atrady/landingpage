@@ -35,7 +35,7 @@ body {
 }
 
 .carousel-indicators > li {
-  border: 2px solid #fa7d09;
+  border: 2px solid #ffa931;
   background-color: black;
   border-radius: 100%;
   margin-right: 10px;
@@ -73,7 +73,7 @@ section {
 .primary-text,
 .coming-soon {
   font-size: 2.5rem;
-  color: #fa7d09;
+  color: #ffa931;
   font-weight: bold;
   font-family: "Barlow Condensed", sans-serif;
 }
@@ -118,7 +118,7 @@ section {
 
 .feature .fas {
   font-size: 3rem;
-  color: #fa7d09;
+  color: #ffa931;
   padding: 10px;
 }
 
@@ -128,6 +128,7 @@ section {
 
 .buttons {
   text-align: center;
+  display: none;
 }
 
 .buttons button:hover {
@@ -189,7 +190,7 @@ footer .getintouch {
 }
 .btn-subscribe {
   color: white;
-  background-color: #fa7d09;
+  background-color: #ffa931;
 }
 
 .copy {

@@ -1,3 +1,5 @@
 {
-  "mailchimp": "c94769ff100642ff5c2340228d172081-us17"
+  "mailchimpApiKey": "c94769ff100642ff5c2340228d172081-us17",
+  "mailchimpInstance": "us17",
+  "listID": "4a843ee716"
 }

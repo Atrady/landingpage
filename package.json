@@ -13,8 +13,10 @@
   "author": "John Barnes",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.1",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.0"
+    "mongoose": "^5.10.0",
+    "superagent": "^6.0.0"
   }
 }
